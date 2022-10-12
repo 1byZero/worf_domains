@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include worf_domains *.css
+recursive-include worf_domains *.csv
+recursive-include worf_domains *.html
+recursive-include worf_domains *.ico
+recursive-include worf_domains *.js
+recursive-include worf_domains *.json
+recursive-include worf_domains *.md
+recursive-include worf_domains *.png
+recursive-include worf_domains *.py
+recursive-include worf_domains *.svg
+recursive-include worf_domains *.txt
+recursive-exclude worf_domains *.pyc
